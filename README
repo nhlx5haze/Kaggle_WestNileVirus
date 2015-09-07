@@ -1,0 +1,23 @@
+>>>>>>>>>>>>>>>> TRAINING STEP
+
+The script train.bat takes 3 arguments :
+* The training file
+* The weather file
+* Model filename
+
+Example : C:\WestnileVirus>train.bat ./input/train.csv ./input/weather.csv model.dat
+
+>>>>>>>>>>>>>>>> PREDICTION STEP
+
+The script predict.bat takes also 3 arguments :
+* The test file
+* The weather file
+* Model filename
+
+Example : C:\WestnileVirus>predict.bat ./input/test.csv ./input/weather.csv model.dat
+
+A submission.csv file will be created at the end of the process.
+
+>>>>>>>>>>>>>>>> WARNING !!!!!!
+Octave and Python must be in the path
+Example : set PATH=%PATH%;C:\Users\Psychedelic\Anaconda;C:\Octave\Octave-4.0.0\bin\
